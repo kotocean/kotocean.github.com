@@ -66,3 +66,24 @@ sudo vim /etc/group
 git update-index --chmod +x mvnw
 git ls-files --stage
 修改完成后，由100644到100755，然后提交即可。否则提交上去的文件，在Jenkins构建时没有可执行权限。
+
+### maven设置
+[设置镜像源](http://maven.apache.org/guides/mini/guide-mirror-settings.html)
+```
+<settings>
+  ...
+  <mirrors>
+    <mirror>
+      <id>UK</id>
+      <name>UK Central</name>
+      <url>http://uk.maven.org/maven2</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+  </mirrors>
+  ...
+</settings>
+```
+设置maven bin的下载路径，[download.cgi](http://maven.apache.org/download.cgi)
+选择想要的文件，右键复制链接，如 http://mirrors.hust.edu.cn/apache/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip
+maven命令行的参数为，`mvnw -s settings.xml clean package -DskipTests`。
+
