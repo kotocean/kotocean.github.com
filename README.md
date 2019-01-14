@@ -47,6 +47,8 @@ sudo chkconfig jenkins on
 首次进入会要求输入初始密码, 
 初始密码在:/var/lib/jenkins/secrets/initialAdminPassword
 
+Jenkins的默认安装路径是`/var/lib/jenkins`。所有的job相关的文件，都在`workspace/`目录下。
+
 ### jenkins用户加入docker用户组
 把当前用户加入docker用户组
 `$sudo gpasswd -a ${USER} docker`
@@ -87,3 +89,5 @@ git ls-files --stage
 选择想要的文件，右键复制链接，如 http://mirrors.hust.edu.cn/apache/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip
 maven命令行的参数为，`mvnw -s settings.xml clean package -DskipTests`。
 
+## Todo
++ Jenkinsfile配置dockerhub的登录凭证。
