@@ -46,3 +46,19 @@ sudo chkconfig jenkins on
 
 首次进入会要求输入初始密码, 
 初始密码在:/var/lib/jenkins/secrets/initialAdminPassword
+
+### jenkins用户加入docker用户组
+把当前用户加入docker用户组
+`$sudo gpasswd -a ${USER} docker`
+
+另外，如果当前没有docker用户组，添加：
+```
+sudo vim /etc/group
+    docker:x:580:docker
+    dockerroot:x:509:
+```
+查看是否添加成功：
+`cat /etc/group | grep ^docker`
+重启docker
+`sudo systemctl restart docker`
+
