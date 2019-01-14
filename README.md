@@ -62,3 +62,7 @@ sudo vim /etc/group
 重启docker
 `sudo systemctl restart docker`
 
+### 修改git提交时的可执行权限
+git update-index --chmod +x mvnw
+git ls-files --stage
+修改完成后，由100644到100755，然后提交即可。否则提交上去的文件，在Jenkins构建时没有可执行权限。
