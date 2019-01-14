@@ -90,4 +90,4 @@ git ls-files --stage
 maven命令行的参数为，`mvnw -s settings.xml clean package -DskipTests`。
 
 ## Todo
-+ Jenkinsfile配置dockerhub的登录凭证。
++ 自动部署到目标机器上
