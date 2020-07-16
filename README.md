@@ -1,6 +1,14 @@
 # kotocean.github.io
 知识的海洋的博客园
 
+## GitHub缓存加速网站，为开发者服务
+GitClone - https://gitclone.com/
+一般使用说明：
+1. 使用站内搜索，直接查询
+2. 搜索没有结果，以surveyJS为例，github的克隆地址为：https://github.com/surveyjs/survey-library.git
+实际克隆时，使用gitclone的加速克隆，地址为 https://gitclone.com/github.com/surveyjs/survey-library.git
+也就是去掉原来的https://，替换为gitclone的网址即可。
+
 ## centos7 安装jenkins
 
 ## java8
