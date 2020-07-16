@@ -9,6 +9,10 @@ GitClone - https://gitclone.com/
 实际克隆时，使用gitclone的加速克隆，地址为 https://gitclone.com/github.com/surveyjs/survey-library.git
 也就是去掉原来的https://，替换为gitclone的网址即可。
 
+### 其他加速
++ go get
++ stackoverflow
+
 ## centos7 安装jenkins
 
 ## java8
