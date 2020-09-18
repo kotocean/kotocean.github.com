@@ -1,6 +1,9 @@
 <div id="console"></div>
+<script src='https://cdn.bootcdn.net/ajax/libs/vConsole/3.3.4/vconsole.min.js'></script>
 <script>
 window.onload=function(){
+  // init vConsole
+  var vConsole = new VConsole();
   var agent = navigator.userAgent.toLowerCase();
   var divConsole = document.getElementById('console');
   divConsole.innerHTML = agent;
