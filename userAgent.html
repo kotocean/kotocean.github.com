@@ -1,12 +1,20 @@
-<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;">
-<div id="console"></div>
-<script src='https://cdn.bootcdn.net/ajax/libs/vConsole/3.3.4/vconsole.min.js'></script>
-<script>
-window.onload=function(){
-  // init vConsole
-  var vConsole = new VConsole();
-  var agent = navigator.userAgent.toLowerCase();
-  var divConsole = document.getElementById('console');
-  divConsole.innerHTML = agent;
-}
-</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;">
+    <title>用户浏览器信息</title>
+  </head>
+  <body>
+    <div id="console"></div>
+    <script src='https://cdn.bootcdn.net/ajax/libs/vConsole/3.3.4/vconsole.min.js'></script>
+    <script>
+    window.onload=function(){
+      // init vConsole
+      var vConsole = new VConsole();
+      var agent = navigator.userAgent.toLowerCase();
+      var divConsole = document.getElementById('console');
+      divConsole.innerHTML = agent;
+    }
+    </script>
+  </body>
+</html>
