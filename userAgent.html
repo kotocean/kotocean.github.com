@@ -11,6 +11,7 @@
     window.onload=function(){
       // init vConsole
       var vConsole = new VConsole();
+      vConsole.showSwitch();
       var agent = navigator.userAgent.toLowerCase();
       var divConsole = document.getElementById('console');
       divConsole.innerHTML = agent;
