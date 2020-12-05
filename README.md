@@ -1,6 +1,9 @@
 # kotocean.github.io
 知识的海洋的博客园
 
+## 目录索引
+1. [【云IDE】](cloud.ide/README.md)
+
 ## GitHub缓存加速网站，为开发者服务
 GitClone - https://gitclone.com/
 一般使用说明：
