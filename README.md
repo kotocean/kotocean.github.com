@@ -3,6 +3,7 @@
 
 ## 目录索引
 1. [【云IDE】](cloud.ide/README.md)
+2. [【前端框架Vue】](vue/README.md)
 
 ## GitHub缓存加速网站，为开发者服务
 GitClone - https://gitclone.com/
