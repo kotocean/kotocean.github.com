@@ -2,7 +2,7 @@
 + [【javase specs】](https://docs.oracle.com/javase/specs/index.html)
 
 ## Gradle阿里云镜像仓库配置
-```yaml
+```
 # build.gradle
 allprojects {
 	repositories {
@@ -12,7 +12,7 @@ allprojects {
 }
 ```
 Gradle插件仓库配置
-```yaml
+```
 # settings.gradle
 pluginManagement {
 	repositories {
