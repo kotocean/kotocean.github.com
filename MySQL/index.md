@@ -1,5 +1,7 @@
 ## @Transactional注解详解
 
+可结合文章[【spring源码阅读--@Transactional实现原理】](https://blog.csdn.net/qq_20597727/article/details/84868035)，从源码实现的角度更好的理解@Transactional注解。
+
 ### @Transactional注解可以作用于接口、接口方法、类以及类方法上
 1. 当作用于类上时，该类的所有 public 方法将都具有该类型的事务属性
 2. 当作用在方法级别时会覆盖类级别的定义
