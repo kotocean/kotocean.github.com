@@ -1,3 +1,9 @@
+## 常用技术
++ Spring Bean的声明周期
++ Spring 事务 @Transactional注解
++ Spring面向切面编程AOP
+
+
 ## Java语言与虚拟机学习
 + [【javase specs】](https://docs.oracle.com/javase/specs/index.html)
 
