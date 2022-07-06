@@ -5,3 +5,4 @@
 3. Postman API测试工具
 4. FastStone Capture 截图工具
 5. TortoiseGit、SourceTree Git客户端工具
+6. XShell SSH客户端
