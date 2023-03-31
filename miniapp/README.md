@@ -1,5 +1,9 @@
 ## 小程序多端框架
-uni-app + [uView UI](https:www.uviewui.com)
+[uni-app](https://uniapp.dcloud.net.cn) + [uView UI](https:www.uviewui.com)
+
+**uni-app**开发一次，多端覆盖
+**uView**多平台快速开发的UI框架
+
 优势分析如下，
 - uni-app在不同平台的运行效果更好；
 - uni-app有它自带的IDE,能够帮助我们快速构建项目和打包项目；
